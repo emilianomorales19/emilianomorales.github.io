@@ -7,7 +7,7 @@
 
 /* Style the body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
     padding: 50px;
@@ -15,8 +15,11 @@ body {
 
 /* Style the title */
 h1 {
-    color: #333;
-    font-size: 36px;
+    font-family: 'Roboto', sans-serif; /* Using Google Fonts */
+    font-size: 4em; /* Make the title bigger */
+    color: #333; /* Dark grey color, adjust as needed */
+    text-align: center; /* Center the title on the page */
+    margin-top: 50px; /* Add some space above the title */
 }
 
 /* Style the paragraph */
