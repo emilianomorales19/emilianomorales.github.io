@@ -15,7 +15,7 @@ body {
 
 /* Style the title */
 h1 {
-    font-family: 'Roboto', sans-serif; /* Using Google Fonts */
+    font-family: 'Palantino', sans-serif; /* Using Google Fonts */
     font-size: 4em; /* Make the title bigger */
     color: #333; /* Dark grey color, adjust as needed */
     text-align: center; /* Center the title on the page */
@@ -26,6 +26,7 @@ h1 {
 p {
     color: #666;
     font-size: 18px;
+    margin-bottom: 50px; /* Add some space below the title*/
 }
 /* Style for the navigation bar */
 nav {
@@ -77,3 +78,55 @@ nav ul li a:hover {
         font-size: 16px;
     }
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Adjust as needed */
+    max-width: 800px; /* Optional: controls max image size */
+}
+
+.image-container img {
+    width: 100%; /* Makes image responsive */
+    display: block;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.contact-button {
+    position: absolute;
+    bottom: 10px; /* Moves button to the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the button horizontally */
+    background-color: #4CAF50; /* Green button, change if needed */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.about-section {
+    max-width: 800px; /* Controls width for readability */
+    margin: 50px auto; /* Centers section and adds spacing */
+    padding: 20px;
+    text-align: left; /* left aligns text */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 10px; /* Soft edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
